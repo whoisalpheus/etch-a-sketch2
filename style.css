@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Grid */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: solid red;
+    width: 500px;
+    height: 500px;
+}
+
+.row, .column {
+    border: 1px solid gray;
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* Control buttons */
+
+.controls {
+    border: solid blue;
+    width: 500px;
+    height: 100px;
+}
+
+.size {
+
+}
+
