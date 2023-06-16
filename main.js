@@ -20,8 +20,13 @@ function createGrid() {
 // Size of grid
 // Label: 'Choose size of canvas'
 // Select: up to 100 options...
-for (let i = 0; i < 100; i++) {
+for (let i = 1; i < 101; i++) {
     const sizeSelection = document.createElement('option');
-    sizeSelection.value = ; // ???
+    sizeSelection.textContent = i;
     dropMenu.appendChild(sizeSelection);
 }
+
+// Change size of grid
+.addEventListener('click', () => {
+    
+})
